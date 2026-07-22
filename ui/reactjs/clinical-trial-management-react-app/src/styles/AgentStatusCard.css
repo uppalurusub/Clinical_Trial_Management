@@ -1,0 +1,105 @@
+.agent-card{
+
+    background:#ffffff;
+
+    border-radius:10px;
+
+    padding:25px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.10);
+
+}
+
+.agent-header{
+
+    margin-bottom:20px;
+
+    border-bottom:1px solid #e5e7eb;
+
+    padding-bottom:10px;
+
+}
+
+.agent-header h2{
+
+    color:#1565c0;
+
+}
+
+.agent-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.agent-table th{
+
+    background:#1565c0;
+
+    color:white;
+
+    padding:12px;
+
+    text-align:left;
+
+}
+
+.agent-table td{
+
+    padding:12px;
+
+    border-bottom:1px solid #eeeeee;
+
+}
+
+.status{
+
+    padding:6px 14px;
+
+    border-radius:20px;
+
+    font-weight:600;
+
+}
+
+.completed{
+
+    background:#dcfce7;
+
+    color:#166534;
+
+}
+
+.running{
+
+    background:#fef3c7;
+
+    color:#92400e;
+
+}
+
+.failed{
+
+    background:#fee2e2;
+
+    color:#991b1b;
+
+}
+
+.warning{
+
+    background:#fef9c3;
+
+    color:#854d0e;
+
+}
+
+.unknown{
+
+    background:#e5e7eb;
+
+    color:#374151;
+
+}

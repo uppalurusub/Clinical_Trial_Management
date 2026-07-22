@@ -1,0 +1,117 @@
+.summary-card{
+
+    background:#ffffff;
+
+    border-radius:10px;
+
+    padding:25px;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+
+}
+
+.summary-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:25px;
+
+    border-bottom:2px solid #1565c0;
+
+    padding-bottom:15px;
+
+}
+
+.summary-header h1{
+
+    color:#1565c0;
+
+    margin:0;
+
+}
+
+.status{
+
+    padding:8px 18px;
+
+    border-radius:20px;
+
+    font-weight:bold;
+
+    color:white;
+
+}
+
+.success{
+
+    background:#16a34a;
+
+}
+
+.failed{
+
+    background:#dc2626;
+
+}
+
+.summary-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+
+}
+
+.summary-item{
+
+    background:#f8fafc;
+
+    padding:18px;
+
+    border-radius:8px;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.summary-item label{
+
+    color:#64748b;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+.summary-item span{
+
+    font-size:16px;
+
+    font-weight:bold;
+
+}
+
+.summary-message{
+
+    margin-top:25px;
+
+    padding:18px;
+
+    background:#dcfce7;
+
+    color:#166534;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+}

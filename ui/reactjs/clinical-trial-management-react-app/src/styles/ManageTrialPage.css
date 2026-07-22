@@ -1,0 +1,102 @@
+.manage-page{
+
+    padding:30px;
+
+}
+
+.page-title{
+
+    margin-bottom:30px;
+
+}
+
+.page-title h1{
+
+    color:#1e3a8a;
+
+}
+
+.trial-form{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+
+}
+
+.form-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+.form-grid label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+.form-grid input,
+.form-grid select{
+
+    width:100%;
+
+    padding:10px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+}
+
+.button-group{
+
+    margin-top:30px;
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.button-group button{
+
+    background:#1565c0;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+}
+
+.message{
+
+    margin-top:25px;
+
+    background:#d1fae5;
+
+    color:#065f46;
+
+    padding:15px;
+
+    border-radius:8px;
+
+}

@@ -1,0 +1,43 @@
+.response-dashboard{
+
+    margin-top:30px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+.card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:10px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.12);
+
+}
+
+.card h2{
+
+    color:#1565c0;
+
+    margin-bottom:20px;
+
+}
+
+.card ul{
+
+    margin-left:20px;
+
+}
+
+.card li{
+
+    margin-bottom:10px;
+
+}

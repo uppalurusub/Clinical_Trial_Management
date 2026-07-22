@@ -1,0 +1,79 @@
+.card{
+
+    background:#ffffff;
+
+    border-radius:10px;
+
+    padding:25px;
+
+    margin-bottom:25px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.10);
+
+}
+
+.card-header{
+
+    margin-bottom:20px;
+
+    border-bottom:1px solid #e5e7eb;
+
+    padding-bottom:10px;
+
+}
+
+.card-header h2{
+
+    color:#1565c0;
+
+}
+
+.card-body{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.country-select{
+
+    width:100%;
+
+    min-height:220px;
+
+    padding:10px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:8px;
+
+    font-size:15px;
+
+}
+
+.selected-list{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+}
+
+.country-chip{
+
+    background:#1565c0;
+
+    color:white;
+
+    padding:8px 14px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+}

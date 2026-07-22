@@ -1,0 +1,115 @@
+.card{
+
+    background:#ffffff;
+
+    padding:25px;
+
+    border-radius:10px;
+
+    margin-bottom:25px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.12);
+
+}
+
+.card-header{
+
+    border-bottom:1px solid #e5e7eb;
+
+    margin-bottom:20px;
+
+    padding-bottom:10px;
+
+}
+
+.form-group{
+
+    margin-bottom:25px;
+
+}
+
+.form-group label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:600;
+
+}
+
+.form-group input{
+
+    width:300px;
+
+    padding:10px;
+
+}
+
+.section{
+
+    margin-bottom:25px;
+
+}
+
+.section-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:15px;
+
+}
+
+.row{
+
+    display:flex;
+
+    gap:10px;
+
+    margin-bottom:10px;
+
+}
+
+.row input{
+
+    flex:1;
+
+    padding:10px;
+
+}
+
+.add-btn{
+
+    background:#16a34a;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 15px;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
+
+.delete-btn{
+
+    background:#dc2626;
+
+    color:white;
+
+    border:none;
+
+    padding:8px 15px;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}

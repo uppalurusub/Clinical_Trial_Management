@@ -1,0 +1,60 @@
+2026-07-13 13:01:09 | INFO | config.llm_config:<module>:18 | Using OpenRouter Model: meta-llama/llama-3.3-70b-instruct
+2026-07-13 13:01:45 | INFO | services.trial_service:__init__:23 | Initializing TrialService...
+2026-07-13 13:01:45 | INFO | implementation.trial_impl:__init__:14 | Initializing TrialImplementation...
+2026-07-13 13:01:45 | INFO | memory.trial_memory:__init__:25 | TrialMemory initialized successfully
+2026-07-13 13:01:45 | INFO | agents.trial_agents:build_agents:19 | Initializing Clinical Trial Management Agents...
+2026-07-13 13:01:45 | INFO | agents.trial_agents:build_agents:50 | TrialDirectorAgent initialized successfully
+2026-07-13 13:01:45 | INFO | agents.trial_agents:build_agents:79 | StudySetupAgent initialized successfully
+2026-07-13 13:01:45 | INFO | agents.trial_agents:build_agents:107 | SiteAgent initialized successfully
+2026-07-13 13:01:45 | INFO | agents.trial_agents:build_agents:135 | RecruitmentAgent initialized successfully
+2026-07-13 13:01:45 | INFO | agents.trial_agents:build_agents:164 | MonitoringAgent initialized successfully
+2026-07-13 13:01:45 | INFO | agents.trial_agents:build_agents:192 | FinanceAgent initialized successfully
+2026-07-13 13:01:45 | INFO | agents.trial_agents:build_agents:221 | ComplianceAgent initialized successfully
+2026-07-13 13:01:45 | SUCCESS | agents.trial_agents:build_agents:235 | 7 agents initialized successfully
+2026-07-13 13:01:45 | SUCCESS | implementation.trial_impl:__init__:26 | TrialImplementation initialized successfully
+2026-07-13 13:01:45 | SUCCESS | services.trial_service:__init__:29 | TrialService initialized successfully
+2026-07-13 13:02:26 | INFO | config.llm_config:<module>:18 | Using OpenRouter Model: meta-llama/llama-3.3-70b-instruct
+2026-07-13 13:02:31 | INFO | services.trial_service:__init__:23 | Initializing TrialService...
+2026-07-13 13:02:31 | INFO | implementation.trial_impl:__init__:14 | Initializing TrialImplementation...
+2026-07-13 13:02:31 | INFO | memory.trial_memory:__init__:25 | TrialMemory initialized successfully
+2026-07-13 13:02:31 | INFO | agents.trial_agents:build_agents:19 | Initializing Clinical Trial Management Agents...
+2026-07-13 13:02:31 | INFO | agents.trial_agents:build_agents:50 | TrialDirectorAgent initialized successfully
+2026-07-13 13:02:31 | INFO | agents.trial_agents:build_agents:79 | StudySetupAgent initialized successfully
+2026-07-13 13:02:31 | INFO | agents.trial_agents:build_agents:107 | SiteAgent initialized successfully
+2026-07-13 13:02:31 | INFO | agents.trial_agents:build_agents:135 | RecruitmentAgent initialized successfully
+2026-07-13 13:02:31 | INFO | agents.trial_agents:build_agents:164 | MonitoringAgent initialized successfully
+2026-07-13 13:02:31 | INFO | agents.trial_agents:build_agents:192 | FinanceAgent initialized successfully
+2026-07-13 13:02:31 | INFO | agents.trial_agents:build_agents:221 | ComplianceAgent initialized successfully
+2026-07-13 13:02:31 | SUCCESS | agents.trial_agents:build_agents:235 | 7 agents initialized successfully
+2026-07-13 13:02:31 | SUCCESS | implementation.trial_impl:__init__:26 | TrialImplementation initialized successfully
+2026-07-13 13:02:31 | SUCCESS | services.trial_service:__init__:29 | TrialService initialized successfully
+2026-07-13 13:03:00 | INFO | config.llm_config:<module>:18 | Using OpenRouter Model: meta-llama/llama-3.3-70b-instruct
+2026-07-13 13:03:04 | INFO | services.trial_service:__init__:23 | Initializing TrialService...
+2026-07-13 13:03:04 | INFO | implementation.trial_impl:__init__:14 | Initializing TrialImplementation...
+2026-07-13 13:03:04 | INFO | memory.trial_memory:__init__:25 | TrialMemory initialized successfully
+2026-07-13 13:03:05 | INFO | agents.trial_agents:build_agents:19 | Initializing Clinical Trial Management Agents...
+2026-07-13 13:03:05 | INFO | agents.trial_agents:build_agents:50 | TrialDirectorAgent initialized successfully
+2026-07-13 13:03:05 | INFO | agents.trial_agents:build_agents:79 | StudySetupAgent initialized successfully
+2026-07-13 13:03:05 | INFO | agents.trial_agents:build_agents:107 | SiteAgent initialized successfully
+2026-07-13 13:03:05 | INFO | agents.trial_agents:build_agents:135 | RecruitmentAgent initialized successfully
+2026-07-13 13:03:05 | INFO | agents.trial_agents:build_agents:164 | MonitoringAgent initialized successfully
+2026-07-13 13:03:05 | INFO | agents.trial_agents:build_agents:192 | FinanceAgent initialized successfully
+2026-07-13 13:03:05 | INFO | agents.trial_agents:build_agents:221 | ComplianceAgent initialized successfully
+2026-07-13 13:03:05 | SUCCESS | agents.trial_agents:build_agents:235 | 7 agents initialized successfully
+2026-07-13 13:03:05 | SUCCESS | implementation.trial_impl:__init__:26 | TrialImplementation initialized successfully
+2026-07-13 13:03:05 | SUCCESS | services.trial_service:__init__:29 | TrialService initialized successfully
+2026-07-22 08:21:46 | INFO | config.llm_config:<module>:18 | Using OpenRouter Model: meta-llama/llama-3.3-70b-instruct
+2026-07-22 08:21:52 | INFO | services.trial_service:__init__:23 | Initializing TrialService...
+2026-07-22 08:21:52 | INFO | implementation.trial_impl:__init__:14 | Initializing TrialImplementation...
+2026-07-22 08:21:52 | INFO | memory.trial_memory:__init__:25 | TrialMemory initialized successfully
+2026-07-22 08:21:52 | INFO | agents.trial_agents:build_agents:19 | Initializing Clinical Trial Management Agents...
+2026-07-22 08:21:52 | INFO | agents.trial_agents:build_agents:50 | TrialDirectorAgent initialized successfully
+2026-07-22 08:21:52 | INFO | agents.trial_agents:build_agents:79 | StudySetupAgent initialized successfully
+2026-07-22 08:21:52 | INFO | agents.trial_agents:build_agents:107 | SiteAgent initialized successfully
+2026-07-22 08:21:52 | INFO | agents.trial_agents:build_agents:135 | RecruitmentAgent initialized successfully
+2026-07-22 08:21:52 | INFO | agents.trial_agents:build_agents:164 | MonitoringAgent initialized successfully
+2026-07-22 08:21:52 | INFO | agents.trial_agents:build_agents:192 | FinanceAgent initialized successfully
+2026-07-22 08:21:52 | INFO | agents.trial_agents:build_agents:221 | ComplianceAgent initialized successfully
+2026-07-22 08:21:52 | SUCCESS | agents.trial_agents:build_agents:235 | 7 agents initialized successfully
+2026-07-22 08:21:52 | SUCCESS | implementation.trial_impl:__init__:26 | TrialImplementation initialized successfully
+2026-07-22 08:21:52 | SUCCESS | services.trial_service:__init__:29 | TrialService initialized successfully

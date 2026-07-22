@@ -1,0 +1,127 @@
+.card{
+
+    background:#ffffff;
+
+    border-radius:10px;
+
+    padding:25px;
+
+    margin-bottom:25px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.10);
+
+}
+
+.card-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+    border-bottom:1px solid #e5e7eb;
+
+    padding-bottom:10px;
+
+}
+
+.card-header h2{
+
+    color:#1565c0;
+
+}
+
+.objective-row{
+
+    display:grid;
+
+    grid-template-columns:50px 1fr 120px;
+
+    gap:15px;
+
+    margin-bottom:15px;
+
+    align-items:start;
+
+}
+
+.serial{
+
+    width:40px;
+
+    height:40px;
+
+    border-radius:50%;
+
+    background:#1565c0;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:bold;
+
+}
+
+.objective-row textarea{
+
+    width:100%;
+
+    padding:10px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:6px;
+
+    resize:vertical;
+
+    font-size:14px;
+
+}
+
+.add-btn{
+
+    background:#16a34a;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 18px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+}
+
+.delete-btn{
+
+    background:#dc2626;
+
+    color:white;
+
+    border:none;
+
+    padding:10px;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+}
+
+.empty{
+
+    color:#6b7280;
+
+    font-style:italic;
+
+}

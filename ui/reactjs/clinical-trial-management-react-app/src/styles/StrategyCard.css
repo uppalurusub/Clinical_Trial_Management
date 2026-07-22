@@ -1,0 +1,223 @@
+.strategy-card{
+
+    background:#ffffff;
+
+    border-radius:10px;
+
+    padding:25px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.10);
+
+    margin-bottom:25px;
+
+}
+
+.strategy-header{
+
+    border-bottom:2px solid #1565c0;
+
+    margin-bottom:20px;
+
+    padding-bottom:10px;
+
+}
+
+.strategy-header h2{
+
+    color:#1565c0;
+
+    margin:0;
+
+}
+
+.strategy-section{
+
+    margin-bottom:25px;
+
+}
+
+.strategy-section h3{
+
+    color:#374151;
+
+    margin-bottom:10px;
+
+    border-left:4px solid #2563eb;
+
+    padding-left:10px;
+
+}
+
+.strategy-content{
+
+    background:#f8fafc;
+
+    border-radius:8px;
+
+    padding:15px;
+
+}
+
+.strategy-content pre{
+
+    margin:0;
+
+    white-space:pre-wrap;
+
+    word-wrap:break-word;
+
+    line-height:1.7;
+
+    font-family:Segoe UI, Arial, sans-serif;
+
+    font-size:14px;
+
+}
+
+/* ===========================================================
+   Markdown Styling
+=========================================================== */
+
+.strategy-content h1{
+
+    color:#1565c0;
+
+    font-size:30px;
+
+    margin-top:10px;
+
+    margin-bottom:20px;
+
+}
+
+.strategy-content h2{
+
+    color:#1976d2;
+
+    font-size:24px;
+
+    margin-top:25px;
+
+    margin-bottom:15px;
+
+    border-bottom:1px solid #ddd;
+
+    padding-bottom:6px;
+
+}
+
+.strategy-content h3{
+
+    color:#0f766e;
+
+    font-size:20px;
+
+    margin-top:20px;
+
+    margin-bottom:12px;
+
+}
+
+.strategy-content h4{
+
+    color:#374151;
+
+    margin-top:18px;
+
+    margin-bottom:10px;
+
+}
+
+.strategy-content p{
+
+    line-height:1.8;
+
+    margin-bottom:15px;
+
+    color:#374151;
+
+}
+
+.strategy-content strong{
+
+    color:#111827;
+
+    font-weight:700;
+
+}
+
+.strategy-content ul{
+
+    margin-left:25px;
+
+    margin-bottom:15px;
+
+}
+
+.strategy-content ol{
+
+    margin-left:25px;
+
+    margin-bottom:15px;
+
+}
+
+.strategy-content li{
+
+    margin-bottom:8px;
+
+    line-height:1.6;
+
+}
+
+.strategy-content table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+    margin-bottom:20px;
+
+}
+
+.strategy-content th{
+
+    background:#1565c0;
+
+    color:white;
+
+    padding:10px;
+
+}
+
+.strategy-content td{
+
+    border:1px solid #ddd;
+
+    padding:10px;
+
+}
+
+.strategy-content code{
+
+    background:#f3f4f6;
+
+    padding:3px 6px;
+
+    border-radius:4px;
+
+}
+
+.strategy-content blockquote{
+
+    border-left:5px solid #1565c0;
+
+    padding-left:15px;
+
+    color:#475569;
+
+    margin:20px 0;
+
+}

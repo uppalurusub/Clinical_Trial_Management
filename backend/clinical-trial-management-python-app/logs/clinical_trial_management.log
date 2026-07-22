@@ -1,0 +1,84 @@
+2026-07-13 13:01:45.604 | SUCCESS  | __main__:<module>:223 - Router registration completed
+2026-07-13 13:02:31.313 | SUCCESS  | __main__:<module>:223 - Router registration completed
+2026-07-13 13:03:05.194 | SUCCESS  | main:<module>:223 - Router registration completed
+2026-07-13 13:03:05.196 | INFO     | main:lifespan:58 - Starting Autonomous Clinical Trial Management Platform...
+2026-07-13 13:03:05.196 | SUCCESS  | main:lifespan:63 - Application startup completed
+2026-07-13 13:04:48.011 | INFO     | main:log_requests:118 - Incoming Request | Method=POST | Path=/api/v1/trials/manage-trial
+2026-07-13 13:04:48.027 | INFO     | routers.trial_router:manage_trial:62 - Received manage trial request for protocol: PROTO-DM-2026-001
+2026-07-13 13:04:48.027 | INFO     | services.trial_service:manage_trial:69 - Received trial management request for protocol: PROTO-DM-2026-001
+2026-07-13 13:04:50.510 | INFO     | implementation.trial_impl:manage_trial:113 - Processing protocol: PROTO-DM-2026-001
+2026-07-13 13:04:50.510 | INFO     | implementation.trial_impl:manage_trial:123 - Executing StudySetupAgent...
+2026-07-13 13:05:18.359 | SUCCESS  | implementation.trial_impl:manage_trial:152 - StudySetupAgent completed
+2026-07-13 13:05:18.359 | INFO     | implementation.trial_impl:manage_trial:160 - Executing SiteAgent...
+2026-07-13 13:05:21.827 | SUCCESS  | implementation.trial_impl:manage_trial:188 - SiteAgent completed
+2026-07-13 13:05:21.827 | INFO     | implementation.trial_impl:manage_trial:196 - Executing RecruitmentAgent...
+2026-07-13 13:05:51.892 | SUCCESS  | implementation.trial_impl:manage_trial:224 - RecruitmentAgent completed
+2026-07-13 13:05:51.892 | INFO     | implementation.trial_impl:manage_trial:232 - Executing MonitoringAgent...
+2026-07-13 13:06:16.413 | SUCCESS  | implementation.trial_impl:manage_trial:260 - MonitoringAgent completed
+2026-07-13 13:06:16.413 | INFO     | implementation.trial_impl:manage_trial:268 - Executing FinanceAgent...
+2026-07-13 13:06:34.124 | SUCCESS  | implementation.trial_impl:manage_trial:299 - FinanceAgent completed
+2026-07-13 13:06:34.125 | INFO     | implementation.trial_impl:manage_trial:307 - Executing ComplianceAgent...
+2026-07-13 13:07:17.070 | SUCCESS  | implementation.trial_impl:manage_trial:332 - ComplianceAgent completed
+2026-07-13 13:07:17.070 | INFO     | implementation.trial_impl:manage_trial:340 - Executing TrialDirectorAgent...
+2026-07-13 13:07:23.376 | SUCCESS  | implementation.trial_impl:manage_trial:379 - TrialDirectorAgent completed
+2026-07-13 13:07:23.376 | INFO     | implementation.trial_impl:manage_trial:388 - Execution completed in 152.87 seconds
+2026-07-13 13:07:23.376 | SUCCESS  | memory.trial_memory:save:48 - Protocol saved successfully: PROTO-DM-2026-001
+2026-07-13 13:07:23.376 | SUCCESS  | implementation.trial_impl:manage_trial:442 - Protocol PROTO-DM-2026-001 stored in memory
+2026-07-13 13:07:25.787 | SUCCESS  | services.trial_service:manage_trial:126 - Trial management completed for protocol: PROTO-DM-2026-001
+2026-07-13 13:07:25.790 | SUCCESS  | routers.trial_router:manage_trial:73 - Trial managed successfully for protocol: PROTO-DM-2026-001
+2026-07-13 13:07:25.793 | INFO     | main:log_requests:131 - Completed Request | Status=200 | Duration=157.782s
+2026-07-13 13:13:34.907 | INFO     | main:log_requests:118 - Incoming Request | Method=OPTIONS | Path=/api/v1/trials/manage-trial
+2026-07-13 13:13:34.907 | INFO     | main:log_requests:131 - Completed Request | Status=200 | Duration=0.0s
+2026-07-13 13:13:34.907 | INFO     | main:log_requests:118 - Incoming Request | Method=POST | Path=/api/v1/trials/manage-trial
+2026-07-13 13:13:34.916 | INFO     | routers.trial_router:manage_trial:62 - Received manage trial request for protocol: PROTO-DM-2026-001
+2026-07-13 13:13:34.922 | INFO     | services.trial_service:manage_trial:69 - Received trial management request for protocol: PROTO-DM-2026-001
+2026-07-13 13:13:37.190 | INFO     | implementation.trial_impl:manage_trial:113 - Processing protocol: PROTO-DM-2026-001
+2026-07-13 13:13:37.190 | INFO     | implementation.trial_impl:manage_trial:123 - Executing StudySetupAgent...
+2026-07-13 13:13:49.436 | SUCCESS  | implementation.trial_impl:manage_trial:152 - StudySetupAgent completed
+2026-07-13 13:13:49.438 | INFO     | implementation.trial_impl:manage_trial:160 - Executing SiteAgent...
+2026-07-13 13:14:11.098 | SUCCESS  | implementation.trial_impl:manage_trial:188 - SiteAgent completed
+2026-07-13 13:14:11.098 | INFO     | implementation.trial_impl:manage_trial:196 - Executing RecruitmentAgent...
+2026-07-13 13:15:12.418 | SUCCESS  | implementation.trial_impl:manage_trial:224 - RecruitmentAgent completed
+2026-07-13 13:15:12.418 | INFO     | implementation.trial_impl:manage_trial:232 - Executing MonitoringAgent...
+2026-07-13 13:15:55.581 | SUCCESS  | implementation.trial_impl:manage_trial:260 - MonitoringAgent completed
+2026-07-13 13:15:55.586 | INFO     | implementation.trial_impl:manage_trial:268 - Executing FinanceAgent...
+2026-07-13 13:17:17.258 | SUCCESS  | implementation.trial_impl:manage_trial:299 - FinanceAgent completed
+2026-07-13 13:17:17.258 | INFO     | implementation.trial_impl:manage_trial:307 - Executing ComplianceAgent...
+2026-07-13 13:17:31.319 | SUCCESS  | implementation.trial_impl:manage_trial:332 - ComplianceAgent completed
+2026-07-13 13:17:31.319 | INFO     | implementation.trial_impl:manage_trial:340 - Executing TrialDirectorAgent...
+2026-07-13 13:17:47.093 | SUCCESS  | implementation.trial_impl:manage_trial:379 - TrialDirectorAgent completed
+2026-07-13 13:17:47.093 | INFO     | implementation.trial_impl:manage_trial:388 - Execution completed in 249.91 seconds
+2026-07-13 13:17:47.093 | SUCCESS  | memory.trial_memory:save:48 - Protocol saved successfully: PROTO-DM-2026-001
+2026-07-13 13:17:47.093 | SUCCESS  | implementation.trial_impl:manage_trial:442 - Protocol PROTO-DM-2026-001 stored in memory
+2026-07-13 13:17:49.471 | SUCCESS  | services.trial_service:manage_trial:126 - Trial management completed for protocol: PROTO-DM-2026-001
+2026-07-13 13:17:49.471 | SUCCESS  | routers.trial_router:manage_trial:73 - Trial managed successfully for protocol: PROTO-DM-2026-001
+2026-07-13 13:17:49.473 | INFO     | main:log_requests:131 - Completed Request | Status=200 | Duration=254.565s
+2026-07-22 08:21:52.852 | SUCCESS  | main:<module>:223 - Router registration completed
+2026-07-22 08:21:52.857 | INFO     | main:lifespan:58 - Starting Autonomous Clinical Trial Management Platform...
+2026-07-22 08:21:52.857 | SUCCESS  | main:lifespan:63 - Application startup completed
+2026-07-22 08:23:29.590 | INFO     | main:log_requests:118 - Incoming Request | Method=POST | Path=/api/v1/trials/manage-trial
+2026-07-22 08:23:29.617 | INFO     | routers.trial_router:manage_trial:62 - Received manage trial request for protocol: PROTO-DM-2026-001
+2026-07-22 08:23:29.617 | INFO     | services.trial_service:manage_trial:69 - Received trial management request for protocol: PROTO-DM-2026-001
+2026-07-22 08:23:32.259 | INFO     | implementation.trial_impl:manage_trial:113 - Processing protocol: PROTO-DM-2026-001
+2026-07-22 08:23:32.259 | INFO     | implementation.trial_impl:manage_trial:123 - Executing StudySetupAgent...
+2026-07-22 08:24:11.664 | SUCCESS  | implementation.trial_impl:manage_trial:152 - StudySetupAgent completed
+2026-07-22 08:24:11.664 | INFO     | implementation.trial_impl:manage_trial:160 - Executing SiteAgent...
+2026-07-22 08:24:46.096 | SUCCESS  | implementation.trial_impl:manage_trial:188 - SiteAgent completed
+2026-07-22 08:24:46.096 | INFO     | implementation.trial_impl:manage_trial:196 - Executing RecruitmentAgent...
+2026-07-22 08:25:12.325 | SUCCESS  | implementation.trial_impl:manage_trial:224 - RecruitmentAgent completed
+2026-07-22 08:25:12.325 | INFO     | implementation.trial_impl:manage_trial:232 - Executing MonitoringAgent...
+2026-07-22 08:25:26.595 | SUCCESS  | implementation.trial_impl:manage_trial:260 - MonitoringAgent completed
+2026-07-22 08:25:26.595 | INFO     | implementation.trial_impl:manage_trial:268 - Executing FinanceAgent...
+2026-07-22 08:25:40.881 | SUCCESS  | implementation.trial_impl:manage_trial:299 - FinanceAgent completed
+2026-07-22 08:25:40.881 | INFO     | implementation.trial_impl:manage_trial:307 - Executing ComplianceAgent...
+2026-07-22 08:26:37.512 | SUCCESS  | implementation.trial_impl:manage_trial:332 - ComplianceAgent completed
+2026-07-22 08:26:37.514 | INFO     | implementation.trial_impl:manage_trial:340 - Executing TrialDirectorAgent...
+2026-07-22 08:26:55.986 | SUCCESS  | implementation.trial_impl:manage_trial:379 - TrialDirectorAgent completed
+2026-07-22 08:26:55.986 | INFO     | implementation.trial_impl:manage_trial:388 - Execution completed in 203.74 seconds
+2026-07-22 08:26:55.986 | SUCCESS  | memory.trial_memory:save:48 - Protocol saved successfully: PROTO-DM-2026-001
+2026-07-22 08:26:55.986 | SUCCESS  | implementation.trial_impl:manage_trial:442 - Protocol PROTO-DM-2026-001 stored in memory
+2026-07-22 08:26:58.203 | SUCCESS  | services.trial_service:manage_trial:126 - Trial management completed for protocol: PROTO-DM-2026-001
+2026-07-22 08:26:58.203 | SUCCESS  | routers.trial_router:manage_trial:73 - Trial managed successfully for protocol: PROTO-DM-2026-001
+2026-07-22 08:26:58.208 | INFO     | main:log_requests:131 - Completed Request | Status=200 | Duration=208.618s
+2026-07-22 08:28:37.933 | INFO     | main:lifespan:69 - Shutting down application...
+2026-07-22 08:28:37.935 | SUCCESS  | main:lifespan:73 - Application shutdown completed

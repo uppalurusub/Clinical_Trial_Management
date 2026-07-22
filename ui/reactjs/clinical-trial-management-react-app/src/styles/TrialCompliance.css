@@ -1,0 +1,125 @@
+.card{
+
+    background:#ffffff;
+
+    border-radius:10px;
+
+    padding:25px;
+
+    margin-bottom:25px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.10);
+
+}
+
+.card-header{
+
+    margin-bottom:20px;
+
+    border-bottom:1px solid #e5e7eb;
+
+    padding-bottom:10px;
+
+}
+
+.card-header h2{
+
+    color:#1565c0;
+
+}
+
+.form-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+    margin-bottom:25px;
+
+}
+
+.form-group label{
+
+    margin-bottom:10px;
+
+    font-weight:600;
+
+}
+
+.authority-select{
+
+    width:100%;
+
+    min-height:180px;
+
+    padding:10px;
+
+    border:1px solid #d1d5db;
+
+    border-radius:6px;
+
+}
+
+.checkbox-container{
+
+    display:flex;
+
+    gap:40px;
+
+    margin-bottom:25px;
+
+}
+
+.checkbox-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-weight:600;
+
+}
+
+.checkbox-item input{
+
+    width:18px;
+
+    height:18px;
+
+}
+
+.selected-authorities{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    align-items:center;
+
+}
+
+.selected-authorities h4{
+
+    width:100%;
+
+    margin-bottom:10px;
+
+}
+
+.authority-chip{
+
+    background:#1565c0;
+
+    color:white;
+
+    padding:8px 16px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+}

@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Segoe UI,Arial,sans-serif;
+
+    background:#f4f6f9;
+
+    color:#333;
+
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+button{
+    cursor:pointer;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,
+td{
+    padding:10px;
+    border:1px solid #ddd;
+}
+
+th{
+    background:#1976d2;
+    color:white;
+}

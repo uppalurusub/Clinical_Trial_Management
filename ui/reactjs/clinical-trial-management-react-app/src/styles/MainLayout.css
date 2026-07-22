@@ -1,0 +1,57 @@
+/* Entire Application */
+
+.app-container{
+
+    display:flex;
+
+    flex-direction:column;
+
+    min-height:100vh;
+
+}
+
+/* Header + Sidebar + Content */
+
+.body-container{
+
+    display:flex;
+
+    flex:1;
+
+}
+
+/* Sidebar */
+
+.sidebar{
+
+    width:260px;
+
+    background:#1f3b93;
+
+    color:white;
+
+    min-height:calc(100vh - 120px);
+
+}
+
+/* Main Content */
+
+.main-content{
+
+    flex:1;
+
+    padding:25px;
+
+    background:#f5f7fb;
+
+    overflow:auto;
+
+}
+
+/* Footer */
+
+.footer{
+
+    height:60px;
+
+}
